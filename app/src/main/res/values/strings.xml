@@ -2,4 +2,6 @@
     <string name="app_name">LEDmatrix</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
+    <string name="button_check_bluetooth_conn">Activate bluetooth</string>
+    <string name="button_show_paired_bluetooth">Show Bluetooth devices</string>
 </resources>

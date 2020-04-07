@@ -1,5 +1,6 @@
 package com.example.ledmatrix
 
+import android.bluetooth.BluetoothAdapter
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
@@ -10,6 +11,8 @@ class DisplayMessageActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_display_message)
 
+
+
         // Get the Intent that started this activity and extract the string
         val message = intent.getStringExtra(EXTRA_MESSAGE)
 
@@ -17,6 +20,9 @@ class DisplayMessageActivity : AppCompatActivity() {
         val textView = findViewById<TextView>(R.id.textView).apply {
             text = message
         }
+
+        val bluetoothAdapter: BluetoothAdapter? = BluetoothAdapter.getDefaultAdapter()
+        
 
 
     }
