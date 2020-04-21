@@ -5,10 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".EnableBluetoothFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+
+    <Button
+        android:id="@+id/check_bluetooth_conn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checkBluetoothConnectivity"
+        android:text="@string/button_check_bluetooth_conn" />
 
 </FrameLayout>

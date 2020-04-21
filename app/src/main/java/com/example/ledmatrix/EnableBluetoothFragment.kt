@@ -1,6 +1,8 @@
 package com.example.ledmatrix
 
 
+import android.bluetooth.BluetoothAdapter
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -19,6 +21,9 @@ class EnableBluetoothFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_enable_bluetooth, container, false)
     }
+
+
+
 
 
 }

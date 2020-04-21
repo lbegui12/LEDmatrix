@@ -4,4 +4,10 @@
     <string name="button_send">Send</string>
     <string name="button_check_bluetooth_conn">Activate bluetooth</string>
     <string name="button_show_paired_bluetooth">Show Bluetooth devices</string>
+    <string name="button_to_bluetooth_settings">Bluetooth Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>
